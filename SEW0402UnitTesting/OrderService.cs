@@ -20,6 +20,7 @@ namespace SEW0402UnitTesting
             Price = price;
             IsDrink = isDrink;
         }
+
     }
 
     public class OrderService

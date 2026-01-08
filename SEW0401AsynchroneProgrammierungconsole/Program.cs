@@ -20,10 +20,10 @@ namespace SEW0401AsynchroneProgrammierungconsole
             //await p.ue3();
 
             //ue4
-            //await p.ue4b();
+            await p.ue4b();
 
             //ue5
-            await p.ue5();
+            //await p.ue5();
 
             //ue5 is AI ham im unterricht spau und ich auch nur so gmacht und sonst hats keiner ghabt
             //ue6 hama ned gmacht
