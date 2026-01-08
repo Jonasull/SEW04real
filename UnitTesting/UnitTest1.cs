@@ -23,6 +23,7 @@ namespace IT22Gr1SEW4s02ue2OrderServiceUnitTests
 
             // Assert
             Assert.Equal(40.0, total);
+            
         }
 
         [Fact]

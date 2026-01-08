@@ -28,7 +28,13 @@ namespace SEW0402UnitTesting
         // Aufgabe 1: Einfache Summe
         public double CalculateTotal(List<OrderItem> orderItems)
         {
-            return orderItems.Sum(item => item.Price * item.Quantity);
+            //return orderItems.Sum(item => item.Price * item.Quantity);
+            double total = 0;
+            foreach (OrderItem item in orderItems)
+            {
+                total += item.Price * item.Quantity;
+            }
+            return total;
         }
 
         // Aufgabe 2: 20% MWSt auf alles
@@ -42,7 +48,7 @@ namespace SEW0402UnitTesting
         public double CalculateTotalWithMultipleVat(List<OrderItem> orderItems)
         {
             double total = 0;
-            foreach (var item in orderItems)
+            foreach (OrderItem item in orderItems)
             {
                 double subtotal = item.Price * item.Quantity;
                 double vatRate = item.IsDrink ? 1.20 : 1.10;
