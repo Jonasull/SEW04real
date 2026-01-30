@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEW0403DepencencyInjection"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{0C628AD6-1966-4BED-992A-FD34A7B3A556}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEW_oderso_CRUD", "SEW_oderso_CRUD\SEW_oderso_CRUD.csproj", "{30452445-840B-B748-EF4B-039DF4DFE55E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0C628AD6-1966-4BED-992A-FD34A7B3A556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C628AD6-1966-4BED-992A-FD34A7B3A556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C628AD6-1966-4BED-992A-FD34A7B3A556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30452445-840B-B748-EF4B-039DF4DFE55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30452445-840B-B748-EF4B-039DF4DFE55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30452445-840B-B748-EF4B-039DF4DFE55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30452445-840B-B748-EF4B-039DF4DFE55E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
